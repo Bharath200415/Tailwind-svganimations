@@ -23,7 +23,10 @@ export const SVGlines = () => {
         </div>
       </div>
       <div className="size-10 rounded-sm bg-neutral-100 z-20 relative overflow-hidden translate-x-6 p-px">
-        <div className="w-full h-full relative z-20 bg-white rounded-[3px] flex items-center justify-center">
+        <div className="w-full h-full relative z-20 bg-white rounded-[3px] flex items-center justify-center
+                bg-[radial-gradient(var(--color-neutral-200)_0.4px,_transparent_0.7px)]
+        [background-size:8px_8px]
+        mask-radial-from-95%">
           <SVG />
         </div>
         <div className="absolute h-full w-full inset-0 [background-image:conic-gradient(at_center,transparent,var(--color-blue-500)_20%,transparent_30%)] animate-spin scale-[1.4] [animation-duration:4s]"></div>
@@ -203,11 +206,11 @@ export const SVG = () => {
   return (
     <motion.svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="45"
+      height="45"
       viewBox="0 0 24 24"
       fill="currentColor"
-      className="text-neutral-500 size-2"
+      className="text-neutral-700 size-[10px]"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
 
