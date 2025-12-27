@@ -14,7 +14,7 @@ export const SVGlines = () => {
           <TopSVG className="absolute top-2 left-36" />
         </div>
         <div className="relative text-[10px]">
-          Div Centerer
+          Code Reviewer
           <MiddleSVG className="absolute top-2 left-32" />
         </div>
         <div className="relative text-[10px]">
